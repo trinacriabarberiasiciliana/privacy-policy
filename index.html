@@ -134,7 +134,8 @@
       position: absolute;
       inset: 0;
       background:
-        linear-gradient(to right, rgba(0,0,0,0.88), rgba(0,0,0,0.55)),
+      /* va modificato --> immagine di sfondo iniziale */
+        linear-gradient(to right, rgba(0,0,0,0.88), rgba(0,0,0,0.55)), 
         url('https://images.unsplash.com/photo-1622286342621-4bd786c2447c?q=80&w=1600&auto=format&fit=crop') center/cover;
       z-index: -2;
     }
@@ -268,13 +269,6 @@
     .service-card:hover {
       transform: translateY(-5px);
       border-color: rgba(200,169,107,0.25);
-    }
-
-    .service-number {
-      font-size: 0.85rem;
-      color: var(--gold-soft);
-      margin-bottom: 18px;
-      letter-spacing: 2px;
     }
 
     .service-card h4 {
@@ -417,6 +411,7 @@
     <div class="container">
       <nav>
         <div class="logo">
+            <!-- va modificato: con il logo originale -->
           <h1>Trinacria</h1>
           <span>Barberia Siciliana</span>
         </div>
@@ -478,6 +473,7 @@
         </div>
 
         <div class="about-image">
+            <!-- va modificato: immagine delle macchinette e forbici sul tappetino  -->
           <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?q=80&w=1200&auto=format&fit=crop" alt="Barberia" />
         </div>
       </div>
@@ -493,7 +489,6 @@
 
       <div class="services-grid">
         <div class="service-card">
-          <div class="service-number">01</div>
           <h4>Taglio Uomo</h4>
           <p>
             Tagli moderni e classici eseguiti con precisione, attenzione alle linee e valorizzazione dello stile personale.
@@ -501,7 +496,6 @@
         </div>
 
         <div class="service-card">
-          <div class="service-number">02</div>
           <h4>Barba & Rasatura</h4>
           <p>
             Definizione barba, rasatura tradizionale e cura completa del viso con tecniche professionali.
@@ -509,7 +503,6 @@
         </div>
 
         <div class="service-card">
-          <div class="service-number">03</div>
           <h4>Esperienza Premium</h4>
           <p>
             Un ambiente rilassato, curato nei dettagli, pensato per offrire un servizio professionale e distintivo.
@@ -527,6 +520,7 @@
       </div>
 
       <div class="gallery-grid">
+          <!-- va modificato: queste 3 immagini -->
         <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?q=80&w=1200&auto=format&fit=crop" alt="Barber style" />
         <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?q=80&w=1200&auto=format&fit=crop" alt="Barber tools" />
         <img src="https://images.unsplash.com/photo-1622296089863-eb7fc530daa8?q=80&w=1200&auto=format&fit=crop" alt="Haircut" />
@@ -546,16 +540,24 @@
         </div>
 
         <div class="contact-links">
-          <a href="tel:+390000000000">
-            📞 +39 000 000 0000
+          <a href="tel:+393421962585">
+            📞 +39 342 196 2585
           </a>
 
-          <a href="https://maps.google.com" target="_blank">
-            📍 Inserisci indirizzo barberia
+          <a href="https://maps.app.goo.gl/4Grm4F8FWvNyxn4A6" target="_blank">
+            📍 Via Pier Santi Mattarella 42, Piano Tavola, Belpasso, 95032
           </a>
 
-          <a href="https://instagram.com" target="_blank">
-            📸 Instagram
+          <a href="https://www.instagram.com/trinacriabarberiasiciliana" target="_blank">
+            📸 Instagram: @trinacriabarberiasiciliana
+          </a>
+          
+          <a href="https://tiktok.com/@trinacria_barberia" target="_blank">
+            📸 TikTok: @trinacria_barbereria
+          </a>
+          
+          <a href="https://wa.me/393421962585" target="_blank">
+            📸 WhatsApp: +39 342 196 2585
           </a>
         </div>
       </div>
